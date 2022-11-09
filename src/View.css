@@ -1,0 +1,27 @@
+.view {
+    display: flex;
+    gap:20px;
+    margin-left: 25px;
+    
+    
+}
+
+.View_form {
+display: flex;
+flex-direction: column;
+gap:0.5rem;
+align-items:flex-start;
+justify-content: left;
+margin-top: 30px;
+background-color:  #75ace4;
+/* width: 50vw; */
+padding: 35px 25px;
+height: 100vh;
+}
+
+.message {
+    word-break: break-word;
+    background-color: #e7e7e7;
+    color:blue
+  
+}

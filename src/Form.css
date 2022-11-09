@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    align-items:flex-start;
+    justify-content: left;
+    margin-top: 30px;
+    background-color: #e7e7e7;
+    /* width: 50vw; */
+    height: 100vh;
+    padding: 25px 25px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+textarea {
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+label {
+color: grey;
+
+}
+
+button {
+    margin-top: 20px;
+    padding:0.5rem 1.5rem;
+    background-color: #75ace4;
+    border-radius: 5px;
+    border-style: none;
+}

@@ -1,0 +1,57 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupWindow {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  width: 350px;
+  /* min-height: 100px; */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.popupWindow h2 {
+  margin: 0;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.popupWindow p {
+  margin: 0.5rem 0;
+}
+
+.popupWindow .buttons button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #75ace4;
+ margin-left: 7rem;
+  padding: 0.5rem 1rem;
+ 
+}
+
+.modal_close {
+  background-color: #e7e7e7;
+  margin: 0;
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  top: 0.2rem;
+  right: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
